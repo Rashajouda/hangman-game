@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hamgman</title>
+</head>
+<body>
+    <div class="container">
+        <div class="game-info">
+            <div class="game-name">Hangman</div>
+            <div class="catogory">
+                Word from: <span></span>
+            </div>
+        </div>
+        <hr>
+        <div class="game-row">
+            <div class="drow">
+                <div class="hangman">
+                    <div class="stand"> </div>
+                    <div class="hang"></div>
+                    <div class="rope"></div>
+                    <div class="man">
+                        <div class="head"></div>
+                        <div class="body"></div>
+                        <div class="hands"></div>
+                        <div class="legs"></div>
+                    </div>
+    
+                </div>
+            </div>
+            <div class="letters">
+            </div>
+        </div>
+        <hr>
+        <div class="letters-guess"></div>
+        <!-- <div class="win"><p>Congratulations, you won</p></div> -->
+    </div>
+    <script src="main.js"></script>
+    <audio src="2502947_lose-sound_by_thatbeat_preview.mp3" preload="auto" id="lose" ></audio>
+    <audio src="47591364_winning-09_by_dope808bangers_preview.mp3" preload="auto" id="win"></audio>
+</body>
+</html>
